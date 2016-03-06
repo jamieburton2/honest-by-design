@@ -1,0 +1,139 @@
+@font-face {
+    font-family: calib-light;
+    src: url(calibril.ttf);
+}
+
+h1, h2, p {
+	font-family: calib-light,'Calibri Light',Calibri,'Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: 100;
+}
+
+h1 {
+	color: #666666;
+	font-size: 64px;
+	padding: 10px 0;
+	margin: 0 24px;
+	line-height: 96px;
+}
+
+h2 {
+	font-size: 48px;
+	color: #ffffff;
+}
+
+.text {
+	padding-bottom: 64px;
+}
+
+.bottom-bar h1 {
+	color: #ffffff;
+}
+
+.top-bar, .bottom-bar {
+	background: #a9d9ae;
+}
+
+.main-content {
+	background: #858586;
+}
+
+.main-content img {
+	display: block;
+	width: auto;
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 64px 0;
+}
+
+.bottom-content p {
+	color: #535455;
+	font-size: 32px;
+	margin: 40px 0;
+}
+
+@media screen and (max-width: 1600px) {
+	h1 {
+		font-size: 56px;
+		margin: 0 12px;
+	}
+
+	h2 {
+		font-size: 40px;
+		margin: 0 24px;
+	}
+
+	.top-bar h1 {
+		line-height: 56px;
+		padding: 16px 0;
+	}
+	.bottom-bar h1 {
+		line-height: 56px;
+		font-size: 50px;
+		padding: 16px 0;
+	}
+
+	.bottom-content p {
+		margin: 32px 24px;
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	h1 {
+		font-size: 48px;
+		margin: 0 12px;
+	}
+
+	h2 {
+		font-size: 32px;
+		margin: 0 24px;
+	}
+
+	.top-bar h1 {
+		line-height: 64px;
+		padding: 10px 0;
+	}
+	.bottom-bar h1 {
+		line-height: 48px;
+		font-size: 42px;
+		padding: 16px 0;
+	}
+
+	.bottom-content p {
+		margin: 32px 24px;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size: 32px;
+		margin: 0 12px;
+	}
+
+	h2 {
+		font-size: 24px;
+		margin: 0 24px;
+	}
+
+	.top-bar h1 {
+		line-height: 48px;
+	}
+	.bottom-bar h1 {
+		line-height: 32px;
+		font-size: 32px;
+		padding: 16px 0;
+	}
+
+	.bottom-content p {
+		margin: 24px 12px;
+		font-size: 18px;
+	}
+}
+
+
